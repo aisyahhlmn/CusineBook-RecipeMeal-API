@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuisine Book | Favourites</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/mealcard.css" />
+    <link rel="stylesheet" href="./css/favourites.css" />
+    <script src="js/favourites.js" defer ></script>
+  </head>
+  <body>
+<header>
+      <a href="#nav" id="menu-ico"
+        ><img src="https://cdn-icons-png.flaticon.com/512/1828/1828551.png"
+      /></a>
+
+      <a href="./indexmeal.html" id="m-home-page-link">
+        <div id="logo">
+          <img src="https://cdn-icons-png.flaticon.com/512/3063/3063371.png" />
+          <h1>CuisineBook.</h1>
+        </div></a
+      >
+
+      <nav id="nav">
+        <a id="close-btn" href="#main"
+          ><img src="https://cdn-icons-png.flaticon.com/512/1828/1828778.png"
+        /></a>
+        <a href="./indexmeal.html" id="home-page-link">
+          <div id="logo">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3063/3063371.png"
+            />
+            <h1>CuisineBook.</h1>
+          </div></a
+        >
+        <ul class="menu">
+          <li><a href="./indexmeal.html">HOME</a></li>
+          <li><a href="./favourites.html">FAVOURITES</a></li>
+          <li><a href="./IndexCrude.html">NOTES</a></li>
+          <li><a href="#" onclick="self.close();">EXIT</a></li>
+        </ul>
+        
+      </nav>
+    </header>
+    <section id="meal-cards-wrapper">
+      <ul id="favourites-list"></ul>
+    </section>
+  </body>
+</html>
